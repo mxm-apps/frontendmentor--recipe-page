@@ -8,7 +8,7 @@ body {
 }
 
 .main {
-    width: 660px;
+    max-width: 660px;
     margin: 120px auto;
     padding: 38px;
     border-radius: 20px;
@@ -72,6 +72,7 @@ li {
 }
 
 ul li::marker {
+    color: var(--col-brown-800);
     font-size: 0.7rem;
     vertical-align: middle;
 }
