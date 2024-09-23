@@ -84,7 +84,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Frontend Mentor - [@mxm-apps](https://www.frontendmentor.io/mxm-apps/)
+- Frontend Mentor - [@mxm-apps](https://www.frontendmentor.io/profile/mxm-apps/)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
