@@ -3,18 +3,18 @@
 
 @font-face {
     font-family: "Outfit";
-    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "YoungSerif";
-    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
 body {
     font-size: 16px;
     font-family: Outfit;
-    font-weight:300;
+    font-weight: 400;
     color: var(--col-stone-600);
 }
 
