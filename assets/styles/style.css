@@ -3,7 +3,7 @@
 
 body {
     background-color: var(--col-stone-100);
-    padding: 0;
+    padding: 15px;
     margin: 0;
 }
 
@@ -96,6 +96,7 @@ hr {
 
     body {
         background-color: transparent;
+        padding: 0;
     }
 
     .main {
