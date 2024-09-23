@@ -1,0 +1,129 @@
+@import url(colors.css);
+@import url(typo.css);
+
+body {
+    background-color: var(--col-stone-100);
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 660px;
+    margin: 120px auto;
+    padding: 38px;
+    border-radius: 20px;
+    background-color: var(--col-white);
+}
+
+
+.main-image img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.preparation-time {
+    background-color: var(--col-rose-50);
+    padding: 12px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid var(--col-stone-150);
+    height: 3.3rem;
+}
+
+tr:last-of-type {
+    border: none;
+}
+
+td:first-of-type {
+    padding-left: 25px;
+    width: 50%;
+}
+
+.value {
+    font-weight: 700;
+    color: var(--col-brown-800)
+}
+
+
+/* Lists */
+
+ol, ul {
+    padding: 0 12px 0 24px;
+}
+
+ul {
+    list-style: square;
+}
+
+li {
+    padding-left: 12px;
+}
+
+ul li::marker {
+    font-size: 0.7rem;
+    vertical-align: middle;
+}
+
+ol li::marker {
+    color: var(--col-brown-800);
+    font-weight: 600;
+}
+
+
+/* Other */
+
+hr {
+    margin: 32px 0;
+    height: 1px;
+    border: none;
+    background-color: var(--col-stone-150);
+}
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        background-color: transparent;
+    }
+
+    .main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .main-image img {
+        border-radius: 0;
+    }
+
+    .main-recipe {
+        margin: 0 24px;
+    }
+
+    .preparation-time {
+        background-color: var(--col-rose-50);
+        padding: 12px 30px;
+        margin: 30px 0;
+        border-radius: 10px;
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

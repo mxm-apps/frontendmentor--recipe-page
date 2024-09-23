@@ -1,0 +1,68 @@
+
+/* Typography Settings */
+
+@font-face {
+    font-family: "Outfit";
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "YoungSerif";
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight:300;
+    color: var(--col-stone-600);
+}
+
+h1, h2 {
+    font-family: YoungSerif, Georgia, serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--col-stone-900);
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: var(--col-brown-800);
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--col-rose-800);
+}
+
+p, li {
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+
+
+
+/*
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700
+
+*/
